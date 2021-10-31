@@ -1,0 +1,55 @@
+
+.App{
+    text-align: center;
+    font-family: Arial;
+    border: 2px solid #f4f4f4;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+/* The answer selected by the user */
+.selected {
+    background-color: #FFBF00 !important;
+    border-color: #FFBF00 !important;
+}
+
+/* The list of options */
+.options {
+    padding: 8px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    background: #ccc;
+    font-weight: lighter;
+    border-radius: 5px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.correct-answers{
+  padding: 8px;
+  border-radius: 5px;
+  background: #228B22;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+button{
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #2980B9; 
+}
